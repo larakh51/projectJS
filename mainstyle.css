@@ -1,0 +1,120 @@
+/* style-static.css */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #f0f4f8, #e3eaf2);
+  padding: 2rem;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #1a237e;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  gap: 1rem;
+}
+
+.people-count {
+  font-size: 1rem;
+  color: #555;
+}
+
+.search-box input {
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #aaa;
+  width: 200px;
+}
+
+.top-buttons button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #3949ab;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.top-buttons button:hover {
+  background-color: #283593;
+}
+
+.contacts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-card {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.contact-card:hover {
+  transform: scale(1.01);
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+
+.info {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-name {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.contact-phone {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.card-buttons button {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  transition: 0.2s;
+}
+
+.card-buttons button:hover {
+  transform: scale(1.2);
+}
+
+footer {
+  text-align: center;
+  margin-top: 4rem;
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.visually-hidden {
+  position: absolute;
+  left: -9999px;
+}
